@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroBakery</title>
+    <style>
+        *{font-family: cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            align-items: center;
+        }
+        h1,h2 {
+            color: purple;
+        }
+        h3{
+            color: rgb(51, 51, 134);
+
+        }
+        body{ 
+            background-image:url(Fondo.png);
+        }
+    </style>
+    <link REL="STYLESHET" href="">
+
+</head>
+<body>
+    <form>
+        <div>
+        <img src="logo.png" alt="logo astrobakery" width =" 300x " height =" 300px " >
+        <h1>Pasteleria </h1>
+        <br>
+        <h3>Bienvenido a la pasteleria ASTRO BAKERY! <br> Tel: 777 01800 astrobakery <br> astro@bakery.com <br> Calle de las delicias, ciudad de los dulces, México. <br> <br></h3> 
+        <h2>Para hacer un pedido debes registrarte:</h2></b>
+        <label for="fecha hoy"> Fecha de hoy</label>
+        <input type="date" id="fecha1" name="fecha1"><br><br>
+        <label for="nombre cliente"> Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="tel1">Ingresa tu teléfono</label>
+        <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+        <label for="correo1">Ingresa tú correro electronico:</label>
+        <input type="email" id="correo1" name="correo1"><br><br>
+        <label for="Input1"> ¿En qué fecha quieres tú pastel?</label>
+        <input type="datetime-local" id="fecha2" name="fecha2"><br><br>
+
+        <h2>Aquí encontraras algunas sugerencias de pasteles  <br></h2>
+        <hr>
+        <ul>
+            <dl >
+            <li><dt > Pastel venus </dt ></li>
+            <dd > - Delicioso pan de chocolate, relleno de nutela con fresas, adornado con asteroides de chocolate </dd >
+            <br><li><dt>Pastel Jupiter</dt></li>
+            <dd>Un pan de vainilla superesponjosito adornados con aros de chocolate y lunas de browne</dd>
+            <br><li><dt>Pastel Marte</dt></li>
+            <dd>Delicioso pan de redvelvet relleno de crema de vainilla y freasas; adornado con azucar glass y lunas de brownies</dd>
+        </ul>
+        <hr>
+        <h2>Arma tu pastel!</h2>
+        <p>Para armar tu pastel unicamente tienes que seleccionar: para cuantas personas será tu pastel, el sabor de tu pan, el relleno y los adornos</p>
+        <h3>Elige el tamaño de tu pastel</h3>
+        <label for="numero1">¿Para cuántas personas?</label><br>
+        <input type="number" id="numero1" name="numero1"><br><br>
+        <br>
+        <h2>Elige el sabor de tu pan</h2>
+        <table align="center">
+            <tr>
+                <th>Sabor</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Chocolate</td>
+                <td>...$400</td>
+            </tr>
+            <tr>
+                <td>Vainilla</td>
+                <td>...$300</td>
+            </tr>
+            <tr>
+                <td>Redvelvet</td>
+                <td>...$500</td>
+            </tr>
+            </table>
+        </select>
+        <h3>Selecciona el sabor de tu pan</h3>
+        <input type="checkbox" id="pan1" name="dec1" value="Chocolate">
+        <label for="pan1">Chocolate</label><br>
+        <input type="checkbox" id="pan2" name="pan2" value="Vainilla">
+        <label for="pan2">Vainilla</label><br>
+        <input type="checkbox" id="pan3" name="pan3" value="Redvelvet">
+        <label for="pan3">Redvelvet</label><br>
+        <input type="checkbox" id="pan4" name="pan4" value="Marmoleado">
+        <label for="pan4">Marmoleado</label><br>
+        <br>
+        <br>
+        <h2>Elige la decoración de tu pastel</h2>
+        <table align="center">
+            <tr>
+                <th>Decoración</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Asteroides de Chocolate</td>
+                <td>...$40</td>
+            </tr>
+            <tr>
+                <td>Lunas de browne</td>
+                <td>...$100</td>
+            </tr>
+            <tr>
+                <td>Polvos estelares<br>(Azúcar Glass)</td>
+                <td>...$10</td>
+            </tr>
+            <tr>
+                <td>Aros de Chocolate</td>
+                <td>...$10 pz</td>
+            </tr>
+            <tr>
+                <td>Personalizado con <br>frase/nombre de Chcocolate</td>
+                <td>...$70 pz</td>
+            </tr>
+            <tr>
+                <td>Vía láctea<br>(Betún de Queso)</td>
+                <td>...$150 pz</td>
+            </tr>
+        </table>
+        <h3>Selecciona la o las decoraciones</h3>
+        <input type="checkbox" id="dec1" name="dec1" value="Asteroides de Chocolate">
+        <label for="dec1">Asteroides de Chocolate</label><br>
+        <input type="checkbox" id="dec2" name="dec2" value="Lunas de browne">
+        <label for="dec2">Lunas de browne</label><br>
+        <input type="checkbox" id="dec3" name="dec3" value="Polvos estelares">
+        <label for="dec3">Polvos estelares</label><br>
+        <input type="checkbox" id="dec4" name="dec4" value="Aros de Chocolate">
+        <label for="dec4">Aros de Chocolate</label><br>
+        <input type="checkbox" id="dec5" name="dec5" value="Personalizado con nombre/frase">
+        <label for="dec5">Personalizado con nombre/frase</label><br>
+        <input type="checkbox" id="dec6" name="dec6" value="Vía láctea">
+        <label for="dec6">Vía láctea</label><br><br>
+        <label for="Input1"> Si terminaste tu pedido da click en el siguiente botón</label>
+        <input type="submit"><br><br><br>
+    </div>
+    </form>
+</body>
+</html>
