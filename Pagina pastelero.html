@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroBakery</title>
+    <style>
+        *{font-family: cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            align-items: center;
+        }
+        h1,h2 {
+            color: purple;
+        }
+        h3{
+            color: rgb(51, 51, 134);
+            text-align: bold;
+
+        }
+        body{ 
+            background-image:url(Fondo.png);
+        }
+        table, th, td {
+            border: 1px solid white;
+            border-collapse: collapse;
+          }
+          th, td {
+            background-color: #9697d4;
+          }
+    </style>
+    <link REL="STYLESHET" href="">
+
+</head>
+<body>
+    <form>
+        <div>
+        <img src="logo.png" alt="logo astrobakery" width =" 300x " height =" 300px " >
+        <h1>Pasteleria </h1>
+        <br>
+        <h3>Bienvenido Pastelero! <br> A continuación te muestro el pedido del cliente y tu inventario de pasteles y adornos <br> <br></h3>
+        <label for="Input1" style="text-align: bold;" > <b> Da click aquípara ver el pedido del cliente </b></label>
+        <input type="button" onclick="alert('Los pedidos se mostrarane en un momento')" value="Pedidos"> <br><br>
+        <label for="fecha hoy"> Fecha del pedido</label>
+        <input type="date" id="fecha1" name="fecha1"><br><br>
+        <label for="nombre cliente"> Nombre completo del cliente:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="tel1">Teléfono del cliente</label>
+        <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+        <label for="correo1">Correro electronico del cliente:</label>
+        <input type="email" id="correo1" name="correo1"><br><br>
+        <label for="Input1"> Fecha  y hora de entrega del pastel </label>
+        <input type="datetime-local" id="fecha2" name="fecha2" ><br><br>
+            <table align="center">
+                    <tr>
+                        <th>Sabor del pan</th>
+                        <th>Tamaño de pastel</th>
+                        <th>Decoración</th>
+                        <th>cantidad</th>
+                    </tr>
+                    <tr>
+                        <td>Chocolate</td>
+                        <td>cantidad de personas</td>
+                        <td>Asteroides de Chocolate</td>
+                        <td>pz</td>
+                        <tr>
+                    <tr>
+                        <td>Vainilla</td>
+                        <td>cantidad de personas</td>
+                        <td>Lunas de browne</td>
+                        <td>pz</td>
+                    </tr>
+                    <tr>
+                        <td>Redvelvet</td>
+                        <td>cantidad de personas</td>
+                        <td>Polvos estelares<br>(Azúcar Glass)</td>
+                        <td>Si / no</td>
+                    </tr>
+                    <tr>
+                        <td>Chocolate</td>
+                        <td>cantidad de personas</td>
+                        <td>Aros de Chocolate</td>
+                        <td> pz</td>
+                    </tr>
+                    <tr>
+                        <td>Vainilla</td>
+                        <td>cantidad de personas</td>
+                        <td>Personalizado con <br>frase/nombre de Chcocolate</td>
+                        <td>Frase</td>
+                    </tr>
+                </table><br><br>
+            </form>
+        </div>
+        <div>
+            <form>
+        <label for="Input1"> <b> Da click <a href="">aquí</a> para ver tu inventario </b> </label>
+        <table align="center">
+            <tr>
+                <td>Redvelvet</td>
+                <td>cantidad de personas</td>
+                <td>Vía láctea<br>(Betún de Queso)</td>
+                <td>pz</td>
+            </tr>
+            <tr>
+                <th>Sabor del pan</th>
+                <th>Cantidad en almacén</th>
+                <th>Decoración</th>
+                <th>Cantidad en almacén</th>
+            </tr>
+            <tr>
+                <td>Chocolate</td>
+                <td>Cantidad en almacén</td>
+                <td>Asteroides de Chocolate</td>
+                <td>Cantidad en almacén</td>
+                <tr>
+            <tr>
+                <td>Vainilla</td>
+                <td>Cantidad en almacén</td>
+                <td>Lunas de browne</td>
+                <td>Cantidad en almacén</td>
+            </tr>
+            <tr>
+                <td>Redvelvet</td>
+                <td>Cantidad en almacén</td>
+                <td>Polvos estelares<br>(Azúcar Glass)</td>
+                <td>Cantidad en almacén</td>
+            </tr>
+            <tr>
+                <td>Chocolate</td>
+                <td>Cantidad en almacén</td>
+                <td>Aros de Chocolate</td>
+                <td>Cantidad en almacén</td>
+            </tr>
+            <tr>
+                <td>Vainilla</td>
+                <td>Cantidad en almacén</td>
+                <td>Personalizado con <br>frase/nombre de Chcocolate</td>
+                <td>Cantidad en almacén</td>
+            </tr>
+            <tr>
+                <td>Redvelvet</td>
+                <td>Cantidad en almacén</td>
+                <td>Vía láctea<br>(Betún de Queso)</td>
+                <td>Cantidad en almacén</td>
+        </table><br><br>
+        </form>
+    </div>
+</body>
+</html>
