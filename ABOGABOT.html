@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOGABOT</title>
+    <style>
+        body{
+            background-color: #001C42;
+            color: aliceblue;
+        }
+        h1 color: 0000;
+        div {
+            background-color: #3e6192;
+            color: rgb(255, 250, 250);
+          }
+          .button {
+            background-color: #9D947F;
+          }
+    </style>
+    <link REL="STYLESHET" href="">
+
+</head>
+<body>
+    <img src="AbogaBot.png" alt="logo abogabot" width =" 200x " height =" 200px " >
+    <h1>ABOGABOT </h1>
+    <P style="color: rgb(255, 250, 250);">Bienvenidos! mi nombre es : ABOGABOT.  <br></P>
+    <form>
+        <label>
+            Aconitnuación llena el siguiente formulario:
+        </label>
+        <a href="https://forms.gle/TH4uMxtqazi1geu46">
+            <input type="button" value="Registro" style="background-color: #9D947F; font-size: 16px;">
+        </a>
+        </form>
+
+
+    <form id="card-form">
+    <p>Una vez lleno el formulario procede al pago para finalizar la transacción</p>
+        <div class="card">
+            <div class="card-header">
+                <div class="row display-tr">
+                    <h3 style="color: #9D947F; font-size: 40px;"> Pago en línea</h3>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label>
+                            Nombre del tarjetahabiete
+                        </label>
+                        <input Value= "Abogabot despacho de abogados" data-conekta="card[name]" class="form-control" name="name" id="name" type="text"> <br><br>
+                    </div>
+                    <div class="col-md-6">
+                        <label>
+                            Número de tarjeta
+                        </label>
+                        <input Value= "4242424242424242" data-conekta="card[number]" class="form-control" name="name" id="name" type="text" maxlength="16"> <br><br>
+                    </div>
+                    <div class="col-md-6">
+                        <label>
+                            CVC
+                        </label>
+                        <input Value= "111" data-conekta="card[cvc]" class="form-control" name="name" id="name" type="text" maxlength="4"> <br><br>
+                    </div>
+                    <div class="col-md-6">
+                        <label>
+                            Fecha de expiración (MM/AAAA)
+                        </label>
+                        <div>
+                            <input style="width: 50px; display:inline-block" Value= "03" data-conekta="card[exp_month]" class="form-control" name="name" id="name" type="text" maxlength="2">
+                            <input style="width: 50px; display:inline-block" Value= "2022" data-conekta="card[exp_year]" class="form-control" name="name" id="name" type="text" maxlength="4"><br><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <button  style="background-color: #9D947F; font-size: 16px; b;" class="btn btn-succes btn-ig">
+                            <i class="fa fa-check-square"> </i> PAGAR
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
